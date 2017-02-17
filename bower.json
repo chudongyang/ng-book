@@ -1,0 +1,24 @@
+{
+  "name": "ng-book",
+  "description": "这是一个线上书店",
+  "main": "index.js",
+  "authors": [
+    "315039355@qq.com <315039355@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "angular-resource": "^1.6.1",
+    "angular-route": "^1.6.1"
+  }
+}

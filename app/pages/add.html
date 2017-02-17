@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-md-12">
+        <form action="" class="form-horizontal" role="form" ng-submit="addBook()">
+            <div class="form-group">
+                <label for="name" class="control-label col-md-2">书名</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="请输入书名" ng-model="book.name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="price" class="control-label col-md-2">价格</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="price" name="price" placeholder="请输入价格" ng-model="book.price">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="src" class="control-label col-md-2">封面</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="src" name="src" placeholder="请输入封面" ng-model="book.src">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-8">
+                    <button class="btn btn-info" type="submit" >新增</button>
+                    <button class="btn btn-default pull-right">返回</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
